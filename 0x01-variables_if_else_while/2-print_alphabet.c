@@ -2,12 +2,13 @@
 #include <stdio.h>
 int main(void)
 {
-	char ch[] = "abcdefghijklmnopqrstuvwxyz";
 
-	for(int i=0; i<26; i++)
-	{
-		putchar(ch[i]);
-	};
+	char i;
+
+	for (i= 'a';i <= 'z'; i++)
+		putchar(i);
+
 	putchar('\n');
+
 	return (0);
 }
